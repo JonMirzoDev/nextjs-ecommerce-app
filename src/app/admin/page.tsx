@@ -68,8 +68,8 @@ export default async function AdminDashboard() {
       />
       <DashboardCard
         title='Active Products'
-        subtitle={`${formatNumber(productData.activeCount)} Inactive`}
-        body={formatNumber(productData.inactiveCount)}
+        subtitle={`${formatNumber(productData.inactiveCount)} Inactive`}
+        body={formatNumber(productData.activeCount)}
       />
     </div>
   )
