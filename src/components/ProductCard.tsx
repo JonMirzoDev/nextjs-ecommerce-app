@@ -47,7 +47,7 @@ export function ProductCard({
   )
 }
 
-export function ProductCardSekeleton() {
+export function ProductCardSkeleton() {
   return (
     <Card className='overflow-hidden flex flex-col animate-pulse'>
       <div className='w-full aspect-video bg-gray-300'></div>
